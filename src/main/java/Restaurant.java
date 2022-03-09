@@ -2,7 +2,10 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
-
+ private List<Item> menu = new ArrayList<Item>();
+ public CopyOnWriteArrayList<Item> selectedMenu = new CopyOnWriteArrayList<Item>();
+ private int totalAmount;
+ 
 public class Restaurant {
     private String name;
     private String location;
@@ -69,4 +72,22 @@ public class Restaurant {
         return name;
     }
 
+//Function to Select Item
+    public List<Item> selectItemByName(String itemName){
+      
+        return null;
+    }
+    
+    //Function to UnSelect Item
+    public List<Item> UnSelectItemByName(String itemName){
+    	
+        	return null;
+       
+    }
+    
+    //calculate totalAmount
+    public int calculateAmount(){
+    	
+        return null;
+   
 }
