@@ -11,7 +11,7 @@ public class Item {
         return name;
     }
 	  public int getPrice() {
-        return null;
+        return price;
     }
 	
     @Override
